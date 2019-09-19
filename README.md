@@ -1,4 +1,6 @@
 # vuets koa-vue
+通过vue-cli构建前端工程
+通过koa来开发前端服务器，以便后续发布项目
 
 ## Project setup
 ```
