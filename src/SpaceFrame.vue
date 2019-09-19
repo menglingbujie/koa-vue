@@ -1,16 +1,15 @@
 <template>
-  <div id="app">
+  <div id="space">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <a href="/space">Space</a>
+      <a href="/">Home</a> |
+      <a href="/about">About</a> | 
+      <a href="/space" class="router-link-exact-active">Space</a>
     </div>
     <router-view/>
   </div>
 </template>
-
 <style lang="less">
-#app {
+#space {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
